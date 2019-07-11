@@ -4,11 +4,12 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 1
+Release  : 2
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 Source2  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+Source3  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CDDL-1.0 CDDL-1.1 GPL-2.0
@@ -36,6 +37,9 @@ cp %{SOURCE1} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bu
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
 
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2
+cp %{SOURCE3} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2
+
 
 %files
 %defattr(-,root,root,-)
@@ -44,3 +48,4 @@ cp %{SOURCE2} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bu
 %defattr(-,root,root,-)
 /usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
