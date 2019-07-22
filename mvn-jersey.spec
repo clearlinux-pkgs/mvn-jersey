@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 3
+Release  : 4
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.13/jersey-client-1.13.jar
@@ -33,6 +33,7 @@ Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CDDL-1.0 CDDL-1.1 GPL-2.0
 Requires: mvn-jersey-data = %{version}-%{release}
+Patch1: jersey-project.patch
 
 %description
 This directory contains Jersey & JAX-RS tools - ant tasks, maven plugins, shell scripts etc.
