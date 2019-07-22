@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 4
+Release  : 5
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.13/jersey-client-1.13.jar
@@ -47,6 +47,12 @@ data components for the mvn-jersey package.
 
 
 %prep
+## prep_prepend content
+mkdir -p project
+cd project
+%patch1 -p1
+cd ../
+## prep_prepend end
 
 %build
 
@@ -117,6 +123,9 @@ cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/c
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
 cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
 
+## install_append content
+cp -r project/* %{buildroot}/usr/share/java/.m2/repository
+## install_append end
 
 %files
 %defattr(-,root,root,-)
@@ -140,8 +149,12 @@ cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/c
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.13/jersey-project-1.13.pom
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/project/2.22.2/project-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/containers/project/2.22.2/project-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
