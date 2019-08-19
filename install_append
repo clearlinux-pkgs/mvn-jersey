@@ -1,1 +1,1 @@
-cp -r project/* %{buildroot}/usr/share/java/.m2/repository
+cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
