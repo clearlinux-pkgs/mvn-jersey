@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 15
+Release  : 16
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
@@ -42,36 +42,38 @@ Source32  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.19/jer
 Source33  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
 Source34  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar
 Source35  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.pom
-Source36  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.jar
-Source37  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.pom
-Source38  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar
-Source39  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.pom
-Source40  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
-Source41  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
-Source42  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
-Source43  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
-Source44  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.jar
-Source45  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.pom
-Source46  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.jar
-Source47  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.pom
-Source48  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.jar
-Source49  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.pom
-Source50  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.1.5.1/jersey-project-1.1.5.1.pom
-Source51  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.13/jersey-project-1.13.pom
-Source52  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
-Source53  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
-Source54  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.jar
-Source55  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.pom
-Source56  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/1.19/jersey-test-framework-1.19.pom
-Source57  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.jar
-Source58  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.pom
-Source59  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.jar
-Source60  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.pom
-Source61  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
-Source62  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
-Source63  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
-Source64  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
-Source65  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+Source36  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.jar
+Source37  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.pom
+Source38  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.jar
+Source39  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.pom
+Source40  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar
+Source41  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.pom
+Source42  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
+Source43  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
+Source44  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+Source45  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
+Source46  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.jar
+Source47  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.pom
+Source48  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.jar
+Source49  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.pom
+Source50  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.jar
+Source51  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.pom
+Source52  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.1.5.1/jersey-project-1.1.5.1.pom
+Source53  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.13/jersey-project-1.13.pom
+Source54  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
+Source55  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+Source56  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.jar
+Source57  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.pom
+Source58  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/1.19/jersey-test-framework-1.19.pom
+Source59  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.jar
+Source60  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.pom
+Source61  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.jar
+Source62  : https://repo1.maven.org/maven2/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.pom
+Source63  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
+Source64  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+Source65  : https://repo1.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+Source66  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
+Source67  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CDDL-1.0 CDDL-1.1 GPL-2.0
@@ -222,95 +224,101 @@ cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-client/1.9
 cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.pom
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.pom
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.19/jersey-core-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.jar
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.pom
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2-servlet/1.19/jersey-grizzly2-servlet-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.jar
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.pom
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-grizzly2/1.19/jersey-grizzly2-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.jar
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.pom
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-json/1.1.5.1/jersey-json-1.1.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.1.5.1
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.1.5.1/jersey-project-1.1.5.1.pom
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.1.5.1/jersey-project-1.1.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.13
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.13/jersey-project-1.13.pom
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.13/jersey-project-1.13.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.19
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.19/jersey-project-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.9
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-project/1.9/jersey-project-1.9.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.jar
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.pom
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-server/1.1.5.1/jersey-server-1.1.5.1.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/1.19
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/1.19/jersey-test-framework-1.19.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/1.19/jersey-test-framework-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.jar
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.pom
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.19/jersey-test-framework-core-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-grizzly2/1.19/jersey-test-framework-grizzly2-1.19.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.22.2/jersey-guava-2.22.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/bundles/repackaged/project/2.22.2/project-2.22.2.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
 
 ## install_append content
 cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
@@ -333,6 +341,8 @@ cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-client/1.19/jersey-client-1.19.pom
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.jar
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-client/1.9/jersey-client-1.9.pom
+/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.jar
+/usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.1.5.1/jersey-core-1.1.5.1.pom
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.jar
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.13/jersey-core-1.13.pom
 /usr/share/java/.m2/repository/com/sun/jersey/jersey-core/1.17.1/jersey-core-1.17.1.jar
