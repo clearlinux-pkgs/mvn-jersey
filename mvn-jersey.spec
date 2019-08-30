@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 17
+Release  : 18
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
