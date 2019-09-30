@@ -1,4 +1,5 @@
 mkdir -p project
 cd project
 %patch1 -p1
+%patch2 -p1
 cd ../
