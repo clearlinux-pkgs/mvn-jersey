@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 24
+Release  : 25
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
@@ -507,6 +507,7 @@ cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/media/project/2.28/project-2.28.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/project/2.28/project-2.28.pom
 

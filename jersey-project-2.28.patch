@@ -1,4 +1,4 @@
-From 468db70713bf2b727d5b3d3405937df7b7aca9c0 Mon Sep 17 00:00:00 2001
+From 8addc75b6d1e92882e9fdf92d71ce2fbeef1650e Mon Sep 17 00:00:00 2001
 From: Athenas Jimenez <athenas.jimenez.gonzalez@intel.com>
 Date: Mon, 30 Sep 2019 15:23:32 +0000
 Subject: [PATCH] jersey-project-2.28
@@ -6,10 +6,12 @@ Subject: [PATCH] jersey-project-2.28
 ---
  .../containers/project/2.28/project-2.28.pom  |   78 +
  .../inject/project/2.28/project-2.28.pom      |   40 +
+ .../media/project/2.28/project-2.28.pom       |   58 +
  .../jersey/project/2.28/project-2.28.pom      | 2090 +++++++++++++++++
- 3 files changed, 2208 insertions(+)
+ 4 files changed, 2266 insertions(+)
  create mode 100644 org/glassfish/jersey/containers/project/2.28/project-2.28.pom
  create mode 100644 org/glassfish/jersey/inject/project/2.28/project-2.28.pom
+ create mode 100644 org/glassfish/jersey/media/project/2.28/project-2.28.pom
  create mode 100644 org/glassfish/jersey/project/2.28/project-2.28.pom
 
 diff --git a/org/glassfish/jersey/containers/project/2.28/project-2.28.pom b/org/glassfish/jersey/containers/project/2.28/project-2.28.pom
@@ -141,6 +143,70 @@ index 0000000..eaf7c5d
 +        <module>cdi2-se</module>
 +        <module>hk2</module>
 +    </modules>
++</project>
+diff --git a/org/glassfish/jersey/media/project/2.28/project-2.28.pom b/org/glassfish/jersey/media/project/2.28/project-2.28.pom
+new file mode 100644
+index 0000000..16a88c2
+--- /dev/null
++++ b/org/glassfish/jersey/media/project/2.28/project-2.28.pom
+@@ -0,0 +1,58 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<!--
++
++    Copyright (c) 2011, 2018 Oracle and/or its affiliates. All rights reserved.
++
++    This program and the accompanying materials are made available under the
++    terms of the Eclipse Public License v. 2.0, which is available at
++    http://www.eclipse.org/legal/epl-2.0.
++
++    This Source Code may also be made available under the following Secondary
++    Licenses when the conditions for such availability set forth in the
++    Eclipse Public License v. 2.0 are satisfied: GNU General Public License,
++    version 2 with the GNU Classpath Exception, which is available at
++    https://www.gnu.org/software/classpath/license.html.
++
++    SPDX-License-Identifier: EPL-2.0 OR GPL-2.0 WITH Classpath-exception-2.0
++
++-->
++
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++    <modelVersion>4.0.0</modelVersion>
++
++    <parent>
++        <groupId>org.glassfish.jersey</groupId>
++        <artifactId>project</artifactId>
++        <version>2.28</version>
++    </parent>
++
++    <groupId>org.glassfish.jersey.media</groupId>
++    <artifactId>project</artifactId>
++    <packaging>pom</packaging>
++    <name>jersey-media</name>
++
++    <description>
++        Contains entity media type provider modules.
++    </description>
++
++    <modules>
++        <module>jaxb</module>
++        <module>json-binding</module>
++        <module>json-jackson</module>
++        <module>json-jackson1</module>
++        <module>json-jettison</module>
++        <module>json-processing</module>
++        <module>moxy</module>
++        <module>multipart</module>
++        <module>sse</module>
++    </modules>
++
++    <dependencies>
++        <dependency>
++            <groupId>org.glassfish.jersey.inject</groupId>
++            <artifactId>jersey-hk2</artifactId>
++            <version>${project.version}</version>
++            <scope>test</scope>
++        </dependency>
++    </dependencies>
 +</project>
 diff --git a/org/glassfish/jersey/project/2.28/project-2.28.pom b/org/glassfish/jersey/project/2.28/project-2.28.pom
 new file mode 100644
