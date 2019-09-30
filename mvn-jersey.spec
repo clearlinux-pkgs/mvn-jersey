@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 20
+Release  : 21
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
@@ -95,6 +95,7 @@ BuildRequires : apache-maven
 BuildRequires : buildreq-mvn
 BuildRequires : gradle
 Patch1: jersey-project.patch
+Patch2: jersey-project-2.28.patch
 
 %description
 This directory contains Jersey & JAX-RS tools - ant tasks, maven plugins, shell scripts etc.
@@ -124,6 +125,7 @@ cd ../
 ## prep_prepend end
 %setup -q -n jersey-2.22.2
 %patch1 -p1
+%patch2 -p1
 
 %build
 
