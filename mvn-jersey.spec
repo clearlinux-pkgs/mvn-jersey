@@ -4,7 +4,7 @@
 #
 Name     : mvn-jersey
 Version  : 2.22.2
-Release  : 23
+Release  : 24
 URL      : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source0  : https://github.com/jersey/jersey/archive/2.22.2.tar.gz
 Source1  : https://repo.maven.apache.org/maven2/com/sun/jersey/contribs/jersey-contribs/1.19/jersey-contribs-1.19.pom
@@ -86,11 +86,15 @@ Source76  : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jerse
 Source77  : https://repo1.maven.org/maven2/org/glassfish/jersey/containers/jersey-container-servlet-core/2.28/jersey-container-servlet-core-2.28.pom
 Source78  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 Source79  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
-Source80  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
-Source81  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.pom
-Source82  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
-Source83  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.pom
-Source84  : https://repo1.maven.org/maven2/org/glassfish/jersey/jersey-bom/2.25/jersey-bom-2.25.pom
+Source80  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+Source81  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.pom
+Source82  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+Source83  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.pom
+Source84  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
+Source85  : https://repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.pom
+Source86  : https://repo1.maven.org/maven2/org/glassfish/jersey/jersey-bom/2.25/jersey-bom-2.25.pom
+Source87  : https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+Source88  : https://repo1.maven.org/maven2/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : CDDL-1.0 CDDL-1.1 GPL-2.0
@@ -378,20 +382,32 @@ cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/c
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2
 cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28
-cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28
-cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.pom
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28
-cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28
-cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.pom
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-server/2.28/jersey-server-2.28.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/jersey-bom/2.25
-cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/jersey-bom/2.25/jersey-bom-2.25.pom
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/jersey-bom/2.25/jersey-bom-2.25.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28
+cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.pom
 
 ## install_append content
 cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
@@ -472,6 +488,8 @@ cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
 /usr/share/java/.m2/repository/org/glassfish/jersey/containers/project/2.28/project-2.28.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.22.2/jersey-client-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.jar
+/usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-client/2.28/jersey-client-2.28.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.22.2/jersey-common-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/core/jersey-common/2.28/jersey-common-2.28.jar
@@ -486,6 +504,8 @@ cp -r ../project/* %{buildroot}/usr/share/java/.m2/repository
 /usr/share/java/.m2/repository/org/glassfish/jersey/jersey-bom/2.25/jersey-bom-2.25.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.jar
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.22.2/jersey-media-jaxb-2.22.2.pom
+/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.jar
+/usr/share/java/.m2/repository/org/glassfish/jersey/media/jersey-media-jaxb/2.28/jersey-media-jaxb-2.28.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/media/project/2.22.2/project-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/project/2.22.2/project-2.22.2.pom
 /usr/share/java/.m2/repository/org/glassfish/jersey/project/2.28/project-2.28.pom

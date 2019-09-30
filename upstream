@@ -83,3 +83,7 @@ ec54308041b593386edf8eb505146907dbdc88e6/jersey-common-2.28.jar
 473f2cd8dbd730619df62eb91025c3d06cb0af7f/jersey-common-2.28.pom
 bc94aedb9d4d82bd23f8b78a345868b11f52abb9/jersey-server-2.28.jar
 e50c3316d3ea9665b5ccc9fde1a43c455d2eafd3/jersey-server-2.28.pom
+cdde34d5980fa498a922a310140e0dd0a69c2e67/jersey-client-2.28.jar
+b27972dbbe88f57672ea4710b9d5b122de8dcca7/jersey-client-2.28.pom
+dcd803fe1c19467c913a2638a6635d4915695867/jersey-media-jaxb-2.28.jar
+ea82cd88ddba053f6e30778432c6b6a2b19ed378/jersey-media-jaxb-2.28.pom
